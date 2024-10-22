@@ -1,0 +1,16 @@
+INSERT INTO books (title, author, isbn, published_date) VALUES
+('To Kill a Mockingbird', 'Harper Lee', '9780061120084', '1960-07-11'),
+('1984', 'George Orwell', '9780451524935', '1949-06-08'),
+('Pride and Prejudice', 'Jane Austen', '9781503290563', '1813-01-28'),
+('The Great Gatsby', 'F. Scott Fitzgerald', '9780743273565', '1925-04-10'),
+('The Catcher in the Rye', 'J.D. Salinger', '9780316769488', '1951-07-16'),
+('The Hobbit', 'J.R.R. Tolkien', '9780547928227', '1937-09-21'),
+('Moby-Dick', 'Herman Melville', '9781503280786', '1851-10-18'),
+('The Lord of the Rings', 'J.R.R. Tolkien', '9780618640157', '1954-07-29'),
+('Animal Farm', 'George Orwell', '9780451526342', '1945-08-17'),
+('The Adventures of Huckleberry Finn', 'Mark Twain', '9780486280615', '1884-12-10'),
+('Brave New World', 'Aldous Huxley', '9780060850524', '1932-08-30'),
+('Harry Potter and the Sorcerer''s Stone', 'J.K. Rowling', '9780439708180', '1997-06-26'),
+('War and Peace', 'Leo Tolstoy', '9781420954302', '1869-01-01'),
+('The Odyssey', 'Homer', '9780140268867', '800-01-01'),
+('Crime and Punishment', 'Fyodor Dostoevsky', '9780143058144', '1866-01-01');
