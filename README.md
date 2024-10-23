@@ -30,8 +30,8 @@ Simplereads is a basic Goodreads clone that allows users to post, comment and vi
     ```
 
 3. Access the application:
-    - Frontend: `http://localhost:3000`
-    - Backend: `http://localhost:8000`
+    - Frontend: `http://localhost:80` or `http://localhost`
+    - Backend: `http://localhost:5000` or Swagger Documentation: `http://localhost:5000/swagger-ui/index.html` 
 
 ## Development
 

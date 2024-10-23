@@ -1,0 +1,32 @@
+# Ignore Maven or Gradle build directories
+target/
+build/
+
+# Ignore IDE-specific files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Ignore logs directory
+logs/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.swp
+*.class
+*.log
+*.tmp
+*.out
+
+# Ignore JAR/WAR files if you're packaging the application separately
+*.jar
+*.war
+*.ear
+
+# Ignore dependencies fetched from package managers like Maven or Gradle
+.mvn/
+.gradle/

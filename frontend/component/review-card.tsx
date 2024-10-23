@@ -16,7 +16,7 @@ interface ReviewCardProps {
 
 const ReviewCard: React.FC<ReviewCardProps> = ({ className, reviewModel }) => {
     return (
-
+      <></>
     );
 
 }
