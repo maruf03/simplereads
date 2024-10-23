@@ -1,0 +1,45 @@
+# Node.js dependencies
+node_modules
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Build files (for Next.js)
+.next
+out
+
+# Ignore test files and directories
+__tests__
+coverage
+*.spec.js
+*.test.js
+*.spec.ts
+*.test.ts
+
+# Ignore local tools config and cache
+.vscode
+.idea
+.DS_Store
+.cache
+*.swp
+*.swo
+
+# Ignore Docker-related files if not needed in the build
+docker-compose.yml
+Dockerfile
+.dockerignore
+
+# Ignore Git files
+.git
+.gitignore
+.gitattributes
