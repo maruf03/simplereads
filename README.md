@@ -7,7 +7,7 @@ Simplereads is a basic Goodreads clone that allows users to post, comment and vi
 - **backend/**: Contains the backend code.
 - **frontend/**: Contains the frontend code.
 - **sql/**: Contains the sql scripts to create necessary tables and populate them with dummy data for testing purposes.
-- **docker-compose.yaml**: Used for orchestrating the deployment of the backend and frontend services.
+- **compose.yaml**: Used for orchestrating the deployment of the backend and frontend services.
 
 ## Deployment
 
@@ -20,7 +20,7 @@ Simplereads is a basic Goodreads clone that allows users to post, comment and vi
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/simplereads.git
+    git clone https://github.com/maruf03/simplereads.git
     cd simplereads
     ```
 
