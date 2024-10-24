@@ -1,4 +1,5 @@
-CREATE TABLE users (
+-- Create the users table if it doesn't already exist
+CREATE TABLE IF NOT EXISTS users (
     id SERIAL PRIMARY KEY,
     full_name VARCHAR(100) UNIQUE NOT NULL,
     email VARCHAR(100) UNIQUE NOT NULL,
@@ -7,7 +8,8 @@ CREATE TABLE users (
     bio TEXT
 );
 
-CREATE TABLE books (
+-- Create the books table if it doesn't already exist
+CREATE TABLE IF NOT EXISTS books (
     id SERIAL PRIMARY KEY,
     title VARCHAR(255) NOT NULL,
     author VARCHAR(255),
@@ -16,7 +18,8 @@ CREATE TABLE books (
     cover_image_url VARCHAR(255)
 );
 
-CREATE TABLE reviews (
+-- Create the reviews table if it doesn't already exist
+CREATE TABLE IF NOT EXISTS reviews (
     id SERIAL PRIMARY KEY,
     user_id INT REFERENCES users(id) ON DELETE CASCADE,
     book_id INT REFERENCES books(id) ON DELETE CASCADE,
@@ -25,13 +28,11 @@ CREATE TABLE reviews (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-CREATE TABLE comments (
+-- Create the comments table if it doesn't already exist
+CREATE TABLE IF NOT EXISTS comments (
     id SERIAL PRIMARY KEY,
     review_id INT REFERENCES reviews(id) ON DELETE CASCADE,
     user_id INT REFERENCES users(id) ON DELETE CASCADE,
     comment_text TEXT NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
-
-
